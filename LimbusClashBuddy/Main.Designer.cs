@@ -58,11 +58,11 @@
             // VictoryChance
             // 
             VictoryChance.AutoSize = true;
-            VictoryChance.BackColor = SystemColors.Control;
+            VictoryChance.BackColor = Color.FromArgb(12, 12, 12);
             VictoryChance.BorderStyle = BorderStyle.Fixed3D;
             VictoryChance.FlatStyle = FlatStyle.Flat;
             VictoryChance.Font = new Font("Verdana", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            VictoryChance.ForeColor = SystemColors.ActiveCaptionText;
+            VictoryChance.ForeColor = SystemColors.Control;
             VictoryChance.Location = new Point(383, 212);
             VictoryChance.Name = "VictoryChance";
             VictoryChance.Size = new Size(434, 40);
@@ -71,11 +71,11 @@
             // 
             // SimulateButton
             // 
-            SimulateButton.BackColor = SystemColors.Control;
+            SimulateButton.BackColor = Color.FromArgb(12, 12, 12);
             SimulateButton.BackgroundImageLayout = ImageLayout.None;
             SimulateButton.Cursor = Cursors.Hand;
             SimulateButton.Font = new Font("Arial", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SimulateButton.ForeColor = SystemColors.ControlText;
+            SimulateButton.ForeColor = Color.White;
             SimulateButton.Location = new Point(548, 270);
             SimulateButton.Name = "SimulateButton";
             SimulateButton.Size = new Size(104, 39);
@@ -86,7 +86,10 @@
             // 
             // EnemyClashPower
             // 
+            EnemyClashPower.BackColor = Color.FromArgb(12, 12, 12);
+            EnemyClashPower.BorderStyle = BorderStyle.FixedSingle;
             EnemyClashPower.Font = new Font("Arial", 24F);
+            EnemyClashPower.ForeColor = SystemColors.Control;
             EnemyClashPower.Location = new Point(1030, 78);
             EnemyClashPower.Name = "EnemyClashPower";
             EnemyClashPower.Size = new Size(120, 44);
@@ -94,7 +97,10 @@
             // 
             // AllyClashPower
             // 
+            AllyClashPower.BackColor = Color.FromArgb(12, 12, 12);
+            AllyClashPower.BorderStyle = BorderStyle.FixedSingle;
             AllyClashPower.Font = new Font("Arial", 24F);
+            AllyClashPower.ForeColor = SystemColors.Control;
             AllyClashPower.Location = new Point(50, 78);
             AllyClashPower.Name = "AllyClashPower";
             AllyClashPower.Size = new Size(120, 44);
@@ -102,7 +108,10 @@
             // 
             // EnemyCoinNumber
             // 
+            EnemyCoinNumber.BackColor = Color.FromArgb(12, 12, 12);
+            EnemyCoinNumber.BorderStyle = BorderStyle.FixedSingle;
             EnemyCoinNumber.Font = new Font("Arial", 24F);
+            EnemyCoinNumber.ForeColor = SystemColors.Control;
             EnemyCoinNumber.Location = new Point(1030, 159);
             EnemyCoinNumber.Name = "EnemyCoinNumber";
             EnemyCoinNumber.Size = new Size(120, 44);
@@ -110,7 +119,10 @@
             // 
             // AllyCoinNumber
             // 
+            AllyCoinNumber.BackColor = Color.FromArgb(12, 12, 12);
+            AllyCoinNumber.BorderStyle = BorderStyle.FixedSingle;
             AllyCoinNumber.Font = new Font("Arial", 24F);
+            AllyCoinNumber.ForeColor = SystemColors.Control;
             AllyCoinNumber.Location = new Point(50, 159);
             AllyCoinNumber.Name = "AllyCoinNumber";
             AllyCoinNumber.Size = new Size(120, 44);
@@ -118,7 +130,10 @@
             // 
             // AllyCoinPower
             // 
+            AllyCoinPower.BackColor = Color.FromArgb(12, 12, 12);
+            AllyCoinPower.BorderStyle = BorderStyle.FixedSingle;
             AllyCoinPower.Font = new Font("Arial", 24F);
+            AllyCoinPower.ForeColor = SystemColors.Control;
             AllyCoinPower.Location = new Point(50, 238);
             AllyCoinPower.Name = "AllyCoinPower";
             AllyCoinPower.Size = new Size(120, 44);
@@ -126,7 +141,10 @@
             // 
             // AllySanity
             // 
+            AllySanity.BackColor = Color.FromArgb(12, 12, 12);
+            AllySanity.BorderStyle = BorderStyle.FixedSingle;
             AllySanity.Font = new Font("Arial", 24F);
+            AllySanity.ForeColor = SystemColors.Control;
             AllySanity.Location = new Point(50, 317);
             AllySanity.Name = "AllySanity";
             AllySanity.Size = new Size(120, 44);
@@ -135,7 +153,10 @@
             // 
             // EnemyCoinPower
             // 
+            EnemyCoinPower.BackColor = Color.FromArgb(12, 12, 12);
+            EnemyCoinPower.BorderStyle = BorderStyle.FixedSingle;
             EnemyCoinPower.Font = new Font("Arial", 24F);
+            EnemyCoinPower.ForeColor = SystemColors.Control;
             EnemyCoinPower.Location = new Point(1030, 238);
             EnemyCoinPower.Name = "EnemyCoinPower";
             EnemyCoinPower.Size = new Size(120, 44);
@@ -143,7 +164,10 @@
             // 
             // EnemySanity
             // 
+            EnemySanity.BackColor = Color.FromArgb(12, 12, 12);
+            EnemySanity.BorderStyle = BorderStyle.FixedSingle;
             EnemySanity.Font = new Font("Arial", 24F);
+            EnemySanity.ForeColor = SystemColors.Control;
             EnemySanity.Location = new Point(1030, 317);
             EnemySanity.Name = "EnemySanity";
             EnemySanity.Size = new Size(120, 44);
@@ -151,7 +175,10 @@
             // 
             // SimulationNumbers
             // 
+            SimulationNumbers.BackColor = Color.FromArgb(12, 12, 12);
+            SimulationNumbers.BorderStyle = BorderStyle.FixedSingle;
             SimulationNumbers.Font = new Font("Arial", 24F);
+            SimulationNumbers.ForeColor = SystemColors.Control;
             SimulationNumbers.Location = new Point(510, 367);
             SimulationNumbers.Name = "SimulationNumbers";
             SimulationNumbers.Size = new Size(180, 44);
@@ -159,10 +186,13 @@
             // 
             // textBox1
             // 
-            textBox1.BackColor = SystemColors.Control;
+            textBox1.BackColor = SystemColors.ControlText;
+            textBox1.BorderStyle = BorderStyle.FixedSingle;
             textBox1.Font = new Font("Arial", 9F);
+            textBox1.ForeColor = SystemColors.Window;
             textBox1.Location = new Point(50, 49);
             textBox1.Name = "textBox1";
+            textBox1.ReadOnly = true;
             textBox1.Size = new Size(120, 21);
             textBox1.TabIndex = 11;
             textBox1.Text = "Ally Clash Power";
@@ -170,10 +200,13 @@
             // 
             // textBox2
             // 
-            textBox2.BackColor = SystemColors.Control;
+            textBox2.BackColor = SystemColors.Desktop;
+            textBox2.BorderStyle = BorderStyle.FixedSingle;
             textBox2.Font = new Font("Arial", 9F);
+            textBox2.ForeColor = SystemColors.Menu;
             textBox2.Location = new Point(50, 130);
             textBox2.Name = "textBox2";
+            textBox2.ReadOnly = true;
             textBox2.Size = new Size(120, 21);
             textBox2.TabIndex = 12;
             textBox2.Text = "Ally Nº of Coins";
@@ -181,10 +214,13 @@
             // 
             // textBox3
             // 
-            textBox3.BackColor = SystemColors.Control;
+            textBox3.BackColor = SystemColors.Desktop;
+            textBox3.BorderStyle = BorderStyle.FixedSingle;
             textBox3.Font = new Font("Arial", 9F);
+            textBox3.ForeColor = SystemColors.Menu;
             textBox3.Location = new Point(50, 209);
             textBox3.Name = "textBox3";
+            textBox3.ReadOnly = true;
             textBox3.Size = new Size(120, 21);
             textBox3.TabIndex = 13;
             textBox3.Text = "Ally Coin Power";
@@ -192,10 +228,13 @@
             // 
             // textBox4
             // 
-            textBox4.BackColor = SystemColors.Control;
+            textBox4.BackColor = SystemColors.Desktop;
+            textBox4.BorderStyle = BorderStyle.FixedSingle;
             textBox4.Font = new Font("Arial", 9F);
+            textBox4.ForeColor = SystemColors.Menu;
             textBox4.Location = new Point(50, 288);
             textBox4.Name = "textBox4";
+            textBox4.ReadOnly = true;
             textBox4.Size = new Size(120, 21);
             textBox4.TabIndex = 14;
             textBox4.Text = "Ally Sanity";
@@ -203,10 +242,13 @@
             // 
             // textBox5
             // 
-            textBox5.BackColor = SystemColors.Control;
+            textBox5.BackColor = SystemColors.Desktop;
+            textBox5.BorderStyle = BorderStyle.FixedSingle;
             textBox5.Font = new Font("Arial", 9F);
+            textBox5.ForeColor = SystemColors.Menu;
             textBox5.Location = new Point(1030, 49);
             textBox5.Name = "textBox5";
+            textBox5.ReadOnly = true;
             textBox5.Size = new Size(120, 21);
             textBox5.TabIndex = 15;
             textBox5.Text = "Enemy Clash Power";
@@ -214,10 +256,13 @@
             // 
             // textBox6
             // 
-            textBox6.BackColor = SystemColors.Control;
+            textBox6.BackColor = SystemColors.Desktop;
+            textBox6.BorderStyle = BorderStyle.FixedSingle;
             textBox6.Font = new Font("Arial", 9F);
+            textBox6.ForeColor = SystemColors.Menu;
             textBox6.Location = new Point(1030, 130);
             textBox6.Name = "textBox6";
+            textBox6.ReadOnly = true;
             textBox6.Size = new Size(120, 21);
             textBox6.TabIndex = 16;
             textBox6.Text = "Enemy Nº of Coins";
@@ -225,10 +270,13 @@
             // 
             // textBox7
             // 
-            textBox7.BackColor = SystemColors.Control;
+            textBox7.BackColor = SystemColors.Desktop;
+            textBox7.BorderStyle = BorderStyle.FixedSingle;
             textBox7.Font = new Font("Arial", 9F);
+            textBox7.ForeColor = SystemColors.Menu;
             textBox7.Location = new Point(1030, 209);
             textBox7.Name = "textBox7";
+            textBox7.ReadOnly = true;
             textBox7.Size = new Size(120, 21);
             textBox7.TabIndex = 17;
             textBox7.Text = "Enemy Coin Power";
@@ -236,10 +284,13 @@
             // 
             // textBox8
             // 
-            textBox8.BackColor = SystemColors.Control;
+            textBox8.BackColor = SystemColors.Desktop;
+            textBox8.BorderStyle = BorderStyle.FixedSingle;
             textBox8.Font = new Font("Arial", 9F);
+            textBox8.ForeColor = SystemColors.Menu;
             textBox8.Location = new Point(1030, 288);
             textBox8.Name = "textBox8";
+            textBox8.ReadOnly = true;
             textBox8.Size = new Size(120, 21);
             textBox8.TabIndex = 18;
             textBox8.Text = "Enemy Sanity";
@@ -247,7 +298,9 @@
             // 
             // textBox9
             // 
-            textBox9.BackColor = SystemColors.Control;
+            textBox9.BackColor = SystemColors.ActiveCaptionText;
+            textBox9.BorderStyle = BorderStyle.FixedSingle;
+            textBox9.ForeColor = SystemColors.Control;
             textBox9.Location = new Point(510, 338);
             textBox9.Name = "textBox9";
             textBox9.Size = new Size(180, 23);
